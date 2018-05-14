@@ -1,16 +1,24 @@
-
+body{
+    background: #206182;
+}
 h1{
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 8em;
+    font-family: fantasy;
     position: relative;
+    text-transform: uppercase;
     
 }
 p{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     font-size: 2.6em;
+    font-family: fantasy;
+    text-transform: uppercase;
 }
 .logocabecera{
-    position: relative; 
+    position: relative;
+    width: 250px;
+    height: 250px; 
     left: 42%;
     bottom: 150px;
 }
