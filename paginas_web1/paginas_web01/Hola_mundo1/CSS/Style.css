@@ -5,4 +5,32 @@ body{
 }
 h1{
     font-family: fantasy;
+    width: 500px; 
+    font-size: 8em;
+    color: #ffffff;
+    position: relative; 
+    left: 15%;
+    top: 200px;
+    text-transform: uppercase;
+
 }
+h2{
+    font-family: fantasy;
+    position: relative; 
+    bottom: 250px;
+    letter-spacing: 23.7px;
+    left: 15.2%;
+    font-size: 6em;
+    width: 70%; 
+
+}
+
+.logocabecera{
+    width: 250px;
+    position: relative;
+    bottom: 150px;
+    left: 60%;
+
+}
+
+
