@@ -74,6 +74,20 @@ h2{
     position: relative;
     left: 38%;
     top: 250px;
+
+    -webkit-animation: logomov 2.3s linear infinite;
+}
+
+@keyframes logomov{
+    0%{
+        
+    }
+    50%{
+        opacity: 0;
+    }
+    100{
+        opacity: 0.3;
+    }
 }
 .titulo_primero{
     width: 100%;
