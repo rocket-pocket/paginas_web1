@@ -4,28 +4,188 @@ body{
 }
 
 .logo{
-    width: 300px;
-}
+    width: 350px;
+    position: relative;
+    top: 170px;
+    left: 36%;
 
+    -webkit-animation: logomov 2.3s linear infinite;
+   
+}
+@keyframes logomov{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 50%;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        left: 100%;
+        opacity: 0;
+    }
+}
+h1, h2, h3{
+    width: 50%;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    position: relative;
+    
+    
+}
+p{
+    font-family: 'Hind', sans-serif;
+    font-size: 1.3rem;
+    color: #ffffff;
+    width: 60%;
+    position: relative;
+}
+h1{
+    font-size: 3rem;
+    position: relative;
+    bottom: 270px;
+    left: 38%;
+}
+h2{
+    font-size: 2rem;
+    position: relative;
+    top: 150px;
+    left: 38%;
+}
+h3{
+    font-size: 1.5rem;
+}
 header{
     width: 100%;
     height: 100vh;
 }
 nav{
+    width: 100%;
     color: #ffffff;
     font-family: 'Hind', sans-serif;
+    color: white;
+    font-size: 2rem;
+   
+    
 }
 
 ul{
+    width: 100%;
     list-style: none;
+    position: relative;
+    left: 0%;
     
 }
 li{
     display: inline-block;
+    
+    float: right;
+    
 }
 a{
-
+    text-decoration: none;
+    color: white; 
+    display: block;
+    padding: 10px 25px;
+    
 }
 a:hover{
+    background: rgb(141, 225, 228);
+    color: black;
+}
+.img_titulo{
+    width: 300px;
+    position: relative;
+    top: 200px;
+}
+.titulo_origen{
+    position: relative;
+    bottom: 50px;
+    left: 30%; 
+}
+.parrafo_origen{
+    width: 60%;
+    left: 30%;
+}
+.img_modo{
+    width: 350px;
+    position: relative;
+    left: 60%;
+    top: 150px;
+}
+.titulo_modo{
+   bottom: 150px;
+   left: 5%;
+}
+.parrafo_modo{
+    width: 50%;
+    bottom: 100px;
+    left: 5%;
+}
+.container_boton{
+    width: 10%;
+    height: 40px;
+    border: 2px solid rgb(78, 78, 78);
+    background: #ffffff;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+    padding: 5px 15px;
+    
+}
+.boton{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+.container_boton:hover{
+    background: rgb(209, 114, 161);
+    border: 2px solid white;
+    color: #ffffff;
+    transition: 0.9s;
+}
+.titulo_historico{
+    left: 30%;
+    top: 140px;
+}
+.img_historico{
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+.parrafo_historico{
+    bottom: 100px;
+    left: 30%;
+}
+.img_personajes01{
+    width: 300px;
+    position: relative;
+    top: 100px;
+}
+.titulo_personajes{
+    left: 50%;
+    bottom: 150px;
+}
+.parrafo_personajes{
+    width: 40%;
+}
+.ms_pacman, .pac-man_jr, .orson{
+    font-size: 2rem;
+}
+.ms{
+    left: 50%;
+    bottom: 100px;
+}
+.jr{
+    bottom: 50%;
+    left: 5%;
+}
+.or{
+    bottom: 100px;
+    left: 50%;
 
 }

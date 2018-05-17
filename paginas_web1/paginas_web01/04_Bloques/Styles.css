@@ -1,0 +1,19 @@
+footer{
+    border-top: 2px solid tomato;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background: rgb(104, 192, 226);
+    text-align:center;
+}
+.dialog{
+    display: none;
+}
+.d{
+    background: rgb(214, 69, 69);
+    width: 50%;
+    height: 500px;
+    position: relative;
+    bottom: 500px;
+    background-image: url();
+    opacity: 0.3;
+}
