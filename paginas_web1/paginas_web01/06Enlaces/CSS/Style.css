@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 200px;
+    background: tomato;
+    color: #ffffff;
+    
+}
+h1{
+    padding: 90px;
+}
+div{
+    height: 50px;
+}
