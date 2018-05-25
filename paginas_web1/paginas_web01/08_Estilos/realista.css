@@ -45,8 +45,17 @@ main p:nth-child(3){
 main p:nth-child(5){
     background: darkcyan;
     color: white;
-    
-    
+}
+
+main [data-autor]{  /* selector para atributos que no sean class o id*/
+    background: rgb(150, 184, 172);
+}
+main [data-autor="Virgilio"]{  /*Selector más específico para atributos*/
+    background: red;
+}  
+
+main article p [title="Ramon"]{
+    background: green;
 }
 footer{
     clear: both;
