@@ -1,0 +1,69 @@
+section.parte1 h1 {
+    margin-left: 38%;
+}
+section.parte1 div.btn{
+    width: 5.5rem;
+    
+    border: 2px solid #ccc;
+    border-radius: 2rem;
+    padding: 3rem;
+    text-transform: uppercase;
+    background: #ccc;
+    margin-left: 40%;
+    position: relative;
+}
+section.parte1 div.btn::after{
+    content:"";
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 0%;
+    background: rgb(0, 0, 23);
+    border-radius: 90%;
+    opacity: 0;
+}
+section.parte1 div.btn:hover::after{
+    opacity: 1;
+    -webkit-transform: translatey(15px);
+    transition: 0.3s;
+}
+/*pseudoclases = :*//*pseudoelementos = ::*/
+section.parte1 div.btn:hover{
+    background: rgb(21, 94, 153);
+    border: 2px solid rgb(21, 94, 153); 
+    color: white;
+    box-shadow: -1px 2px 10px black;
+    -webkit-transform: translatey(-10px);
+    transition: 0.3s linear ;
+}
+section.parte1 p{
+    width: 80%;
+}
+section.parte1 q::before{/**before y after siempre va con ::/
+    content:"esto es un BEFORE";
+    
+}
+
+section.parte1 p::first-letter{
+    font-size: 6rem;
+}
+section.parte1 p::first-line{
+    color: rgb(162, 95, 168);
+}
+section.parte1 blockquote::before{
+    content: url(../assets/photos/mundo.png) "EL MUNDO";
+}
+section.parte2 h2{
+    margin-left: 35%;
+    margin-top: 100px;
+}
+section.parte2 p:nth-of-type(1){
+                    /*empieza a contar desde el primer hijo de ese elemnto, en este              claso "p" */
+    color: crimson;
+}
+section.parte2 p:nth-child(4){
+    color: blue; /*empieza a contar desde el primer hijo(en este caso empezaría a contar desde                  el h2 que es el primer hijo*/
+}
+section:
