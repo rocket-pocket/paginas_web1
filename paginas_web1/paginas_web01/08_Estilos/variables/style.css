@@ -1,0 +1,19 @@
+:root{
+--color-fondo: rgb(3, 48, 33);
+--color-texto: rgb(255, 255, 255) ;
+--color-body: rgb(7, 105, 161); /*variables declaradas en el root*/
+--aire: 2rem;
+}
+body{
+    background: var(--color-body);/*declarando vaiables*/
+}
+header{
+      
+    background-color: var(--color-fondo);  
+    color: var(--color-texto) 
+}
+header h1{
+    padding: calc(var(--aire)*2);/* funcion calc*/
+    margin-left: 40%;    
+}
+

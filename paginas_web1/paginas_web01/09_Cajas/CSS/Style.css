@@ -1,0 +1,31 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+p{
+    margin: 1rem;
+    padding:1rem;
+    width: 20%;
+    /*border: 1px black solid;*/
+    background: bisque;
+    
+    
+}
+
+span{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid;
+    background: aquamarine;
+}
+div{
+    width: 30%;
+    height: 4rem;
+    overflow: scroll;/*revisar overflow*/
+    border: 1px solid;
+}
+div p{
+    width: 100%;
+    height: 100%;
+    
+}
