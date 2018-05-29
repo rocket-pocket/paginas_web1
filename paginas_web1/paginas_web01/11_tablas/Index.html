@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Verdú">
+    <meta name="description" content="tablas">
+    <meta name="generator" content="VSC">
+    <title>Tablas</title>
+</head>
+    <style>
+        .clase:nth-child(1){
+            visibility: hidden;
+        }
+        table{
+            /*background: aquamarine;
+            border: 1px solid black;*/
+            margin: 0 auto;
+            border-collapse:unset;
+            box-shadow: 4px 4px 4px black;
+            
+            
+        }
+        tr,td,th{
+            /*border: 1px solid blue;*/
+            padding: 2rem 3rem;
+        }
+        td{
+            background: bisque;
+        }
+        th{
+            background: coral;
+        }
+        td::after{
+            content:"%";
+        }
+        table{
+            empty-cells: hide;
+            
+        }
+        table:hover{
+            /*border-collapse: separate;*/
+            border-spacing: 1rem;
+            transition: 0.09s ease-in;
+        }
+       
+    </style>
+<body>
+    <header>
+        <h1>Datos del estudio</h1>
+    </header>
+    <main>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe itaque obcaecati laborum distinctio quia, ut, architecto quibusdam sit delectus quasi eius. A odit, omnis reprehenderit consequatur recusandae voluptatibus non!</p>
+            <p>Sint nemo animi aperiam nulla, labore magnam similique et neque aliquam consequuntur, autem repudiandae pariatur ad illo facere suscipit maiores! Facere corrupti omnis reprehenderit. Voluptas aliquam hic vero ratione voluptatum!</p>
+            <p>Odit alias aperiam exercitationem aliquam. Doloremque reprehenderit itaque nostrum deleniti perspiciatis nisi. At provident placeat ducimus nesciunt reiciendis iste tempore, eveniet enim vel! Ullam vel porro ipsa voluptatibus beatae! Libero.</p>
+            <p>Reiciendis sit optio illo officia quas laboriosam quod blanditiis voluptatum a fugiat distinctio omnis commodi placeat saepe corrupti, ipsam voluptate sapiente nam mollitia corporis, ea excepturi quidem assumenda. Facilis, sunt!</p>
+           <!--  altura /peso
+            grupo 1
+            grupo 2
+            grupo 3 -->
+            <table> <!-- El atributo "border" no se utiliza nunca -->
+                <tr>
+                    <td class="clase"></td>
+                    <th>altura</td>
+                    <th>peso</td>
+                </tr>
+                <tr>
+                    <th>grupo1</td>
+                    <td>1.9</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <th>grupo2</td>
+                    <td>1.84</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <th>grupo3</td>
+                    <td>1.54</td>
+                    <td>58</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Datos Vacaciones</h2>           
+           <table>
+               <tr>
+                   <th class="sin" colspan="2" rowspan="2"></td>
+                   <th colspan="3">Edades</td>
+                   
+               </tr>
+               <tr>
+                   <th>20</td>
+                   <th>20-40</td>
+                   <th>50-60</td>
+                   
+               </tr>
+               <tr>
+                   <th rowspan="3">Destinos</td>
+                   <th>Caribe</td>
+                   <td>10</td>
+                   <td>15</td>
+                   <td>20</td>
+               </tr>
+               <tr>
+                   <th>Europa</td>
+                   <td>15</td>
+                   <td>20</td>
+                   <td>5</td>
+                   
+               </tr>
+               <tr>
+                   <th>Disney</td>
+                   <td>10</td>
+                   <td>12</td>
+                   <td>13</td>
+                   
+               </tr>
+           </table>
+        </article>
+        
+        
+    </main>
+    <footer>
+        <address>Chiketete</address>
+        <p><small>&copy;dvdrones 2018</small></p>
+    </footer>
+</body>
+</html>
