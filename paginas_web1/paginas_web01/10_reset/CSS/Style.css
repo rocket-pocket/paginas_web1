@@ -77,3 +77,20 @@ section article p{
     margin-top: 2%;
     margin-left: 20%;
 }
+.tit_2{
+    bottom: 200px;
+}
+.lista_2{
+    position: relative;
+    bottom: 170px;
+    font-size: 1.3rem;
+    display: block;
+    right: 36.5%;
+}
+
+
+
+.logo_2{
+    width: 40%;
+    margin-left: 30%;
+}
