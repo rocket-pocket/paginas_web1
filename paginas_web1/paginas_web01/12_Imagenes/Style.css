@@ -6,7 +6,7 @@ box-sizing : border-box;
 
 } 
 figure.imagen{
-    width: 30%;
+    width: 20%;
    
     border: 1px solid;    
     background: bisque;
@@ -15,9 +15,11 @@ img{
     width: 100%;  /*solo se establece el ancho*/
     display: block;  /* se le da display: block; por que la imagen es inline-block y asi se ajustará exactamente al div*/
     
+    
 }
 figure.bane{
-    width: 30%;
+    
+    width: 20%;
     border: 1px solid;
 }
 figure.bane img{
@@ -26,6 +28,10 @@ figure.bane img{
 }
 figure{
     display: inline-block;
-    margin: 5%; 
+    margin-left: calc(40%/2); 
+    margin-right: 0;
+   /* position: relative;
+    left: calc(21%/2);*/
     max-width: 600px;/*medida de seguridad para posibles escalaciones en pantallas mas grandes*/
 }
+
