@@ -1,0 +1,22 @@
+ul.tareas {
+    list-style: none;
+}
+
+ul.tareas li {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+ul.tareas li span.borrar-tarea {
+    cursor: pointer;
+}
+
+.hecho {
+    text-decoration: line-through;
+}
+
+.inactivo {
+    opacity: 0.5;
+}
